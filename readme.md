@@ -8,7 +8,7 @@ Our first proposal and contribution:
 
 Here is the fully translated LaTeX version of the given equation:
 
-# the morphing infinity spiral
+### the morphing infinity spiral:
 
 $$
 S_{\alpha, \beta}(z, t) = z^{\alpha} \cdot \exp\left(i \cdot t \cdot (\log(z))^{\beta}\right)
