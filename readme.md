@@ -12,7 +12,7 @@ Our first proposal and contribution:
 
 The Morphing Infinity Spiral (MIS) is defined as:
 
-S_α,β(z, t) = z^α · exp(i · t · (log(z))^β)
+$$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
 
 where z ∈ ℂ\{0}, t ∈ ℝ, α, β ∈ ℂ
 
@@ -129,8 +129,6 @@ While $S_{\alpha,\beta}$ is initially defined for $z \neq 0$, it can potentially
 
 The behavior of $S_{\alpha,\beta}$ can be classified based on the values of $\alpha$ and $\beta$. This leads to a parameter space study, potentially revealing regions of similar behavior or bifurcations.
 
-
-# Morphing Infinity Spiral: Explanation and Research Directions
 
 
 # Morphing Infinity Spiral: Comprehensive Analysis
