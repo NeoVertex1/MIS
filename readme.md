@@ -4,6 +4,8 @@ The purpose of this project is to explore new cool mathematical objects! Yes you
 
 Ideally, those who decide to explore this rabbit hole will be able to help each other research these new properties and interesting lil number thingies. It's unknown to me how much of an impact these math objects can make but I enjoy inventing and exploring them. If you are excited about mathematics and code, this will be a wild adventure for you. Most of the math posted here can be tested and "proved" with code! For each new math object we create we will provide extensive testing suits to play around with it. Now without further ado, lets delve... 🤖🤝🤓
 
+If you feel like solving a "problem" (https://github.com/toymathematician/toy-mathematics/blob/main/mis_time_breakdown.md)[here] is the current problem im working on for this project.
+
 Our first proposal and contribution:
 
 # Morphing Infinity Spiral (MIS)
