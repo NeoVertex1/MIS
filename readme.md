@@ -6,7 +6,7 @@ Ideally, those who decide to explore this rabbit hole will be able to help each 
 
 Our first proposal and contribution:
 
-Here is the fully translated LaTeX version of the given equation:
+
 
 ### The Morphing Infinity Spiral(MIS):
 
