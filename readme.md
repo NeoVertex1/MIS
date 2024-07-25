@@ -22,32 +22,32 @@ $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\be
 
 The Morphing Infinity Spiral is defined by the complex function:
 
-![S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta})](URL_to_image)
+$$S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta})$$
 
 Where:
-- `z ∈ ℂ` (z is a complex number)
-- `t ∈ ℝ` (t is a real number representing time)
-- `α, β ∈ ℂ` (α and β are complex parameters)
-- `i` is the imaginary unit (`i² = -1`)
-- `exp(x)` is the exponential function
-- `log(z)` is the complex natural logarithm
+- $$ z \in \mathbb{C} $$ (z is a complex number)
+- $$ t \in \mathbb{R} $$ (t is a real number representing time)
+- $$ \alpha, \beta \in \mathbb{C} $$ (α and β are complex parameters)
+- $$ i $$ is the imaginary unit ($$ i^2 = -1 $$)
+- $$ \exp(x) $$ is the exponential function
+- $$ \log(z) $$ is the complex natural logarithm
 
 ## Domain and Range
 
-- **Domain:** `ℂ \ {0} × ℝ` (all non-zero complex numbers and all real numbers)
-- **Range:** `ℂ` (the complex plane)
+- **Domain:** $$ \mathbb{C} \setminus \{0\} \times \mathbb{R} $$ (all non-zero complex numbers and all real numbers)
+- **Range:** $$ \mathbb{C} $$ (the complex plane)
 
 ## Component Analysis
 
-1. `z^α`:
-   - This term stretches and rotates z based on α
-   - If `α = a + bi`, then `|z^α| = |z|^a` and `arg(z^α) = α * arg(z)`
+1. $$ z^\alpha $$:
+   - This term stretches and rotates z based on $$ \alpha $$
+   - If $$ \alpha = a + bi $$, then $$ |z^\alpha| = |z|^a $$ and $$ \arg(z^\alpha) = \alpha \cdot \arg(z) $$
 
-2. `(log(z))^β`:
-   - `log(z) = ln|z| + i*arg(z)`
+2. $$ (\log(z))^\beta $$:
+   - $$ \log(z) = \ln|z| + i\arg(z) $$
    - This term introduces scale-invariance and additional rotation
 
-3. `exp(i * t * (log(z))^β)`:
+3. $$ \exp(i \cdot t \cdot (\log(z))^\beta) $$:
    - This creates the time-dependent rotation
    - As t varies, it causes the spiral to morph
 
@@ -55,58 +55,58 @@ Where:
 
 1. **Scale Invariance:**
    - For any non-zero complex number k,
-   `S_{α,β}(kz, t) = k^α * S_{α,β}(z, t)`
+   $$   S_{\alpha,\beta}(kz, t) = k^\alpha \cdot S_{\alpha,\beta}(z, t)   $$
 
 2. **Rotational Symmetry:**
-   - For any real number θ,
-   `S_{α,β}(e^(iθ)z, t) = e^(iαθ) * S_{α,β}(z, t)`
+   - For any real number $$ \theta $$,
+   $$   S_{\alpha,\beta}(e^{i\theta}z, t) = e^{i\alpha\theta} \cdot S_{\alpha,\beta}(z, t)   $$
 
 3. **Time Evolution:**
-   `∂S_{α,β}/∂t = i * S_{α,β} * (log(z))^β`
+   $$   \frac{\partial S_{\alpha,\beta}}{\partial t} = i \cdot S_{\alpha,\beta} \cdot (\log(z))^\beta   $$
 
 4. **Complex Derivative:**
-   `∂S_{α,β}/∂z = S_{α,β} * (α/z + iβt(log(z))^(β-1)/z)`
+   $$   \frac{\partial S_{\alpha,\beta}}{\partial z} = S_{\alpha,\beta} \cdot \left(\frac{\alpha}{z} + \frac{i\beta t (\log(z))^{\beta-1}}{z}\right)   $$
 
 ## Dynamical System
 
 The MIS can be viewed as a dynamical system by iterating the function:
-`z_{n+1} = S_{α,β}(z_n, t)`
+$$z_{n+1} = S_{\alpha,\beta}(z_n, t)$$
 
 This leads to the study of:
-- **Fixed points:** `z*` such that `S_{α,β}(z*, t) = z*`
-- **Periodic orbits:** sequences `{z_0, z_1, ..., z_n}` such that `S_{α,β}(z_n, t) = z_0`
+- **Fixed points:** $$ z^* $$ such that $$ S_{\alpha,\beta}(z^*, t) = z^* $$
+- **Periodic orbits:** sequences $$\{z_0, z_1, \ldots, z_n\}$$ such that $$ S_{\alpha,\beta}(z_n, t) = z_0 $$
 - **Attractors and repellers:** sets of points that nearby orbits converge to or diverge from
 
 ## Lyapunov Exponent
 
 To quantify the sensitivity to initial conditions:
-`λ(z_0) = lim(n→∞) (1/n) * Σ(k=0 to n-1) log(|∂S_{α,β}/∂z(z_k, t)|)`
-Where `z_k` is the k-th iterate of `z_0` under `S_{α,β}`.
+$$\lambda(z_0) = \lim_{n \to \infty} \left(\frac{1}{n} \sum_{k=0}^{n-1} \log\left|\frac{\partial S_{\alpha,\beta}}{\partial z}(z_k, t)\right|\right)$$
+Where $$ z_k $$ is the k-th iterate of $$ z_0 $$ under $$ S_{\alpha,\beta} $$.
 
 ## Fractal Dimension
 
-For sets invariant under `S_{α,β}`, we can define and study various fractal dimensions, such as the Hausdorff dimension or box-counting dimension.
+For sets invariant under $$ S_{\alpha,\beta} $$, we can define and study various fractal dimensions, such as the Hausdorff dimension or box-counting dimension.
 
 ## Conformal Properties
 
-`S_{α,β}` is conformal (angle-preserving) at points where its derivative is non-zero. The points where `∂S_{α,β}/∂z = 0` are critical points of the mapping.
+$$ S_{\alpha,\beta} $$ is conformal (angle-preserving) at points where its derivative is non-zero. The points where $$ \frac{\partial S_{\alpha,\beta}}{\partial z} = 0 $$ are critical points of the mapping.
 
 ## Fourier Analysis
 
-We can study the frequency components of `S_{α,β}` along circular paths:
-`F(r, ω, t) = (1/2π) * ∫(0 to 2π) S_{α,β}(re^(iθ), t) * e^(-iωθ) dθ`
+We can study the frequency components of $$ S_{\alpha,\beta} $$ along circular paths:
+$$F(r, \omega, t) = \frac{1}{2\pi} \int_0^{2\pi} S_{\alpha,\beta}(re^{i\theta}, t) \cdot e^{-i\omega\theta} \, d\theta$$
 This gives insight into the spiral's structure at different scales.
 
 ## Partial Differential Equation
 
-`S_{α,β}` satisfies the following PDE:
-`∂S/∂t + z * (∂S/∂z) = α * S * log|S| + i * β * S * (log|z|)^β`
+$$ S_{\alpha,\beta} $$ satisfies the following PDE:
+$$\frac{\partial S}{\partial t} + z \cdot \frac{\partial S}{\partial z} = \alpha \cdot S \cdot \log|S| + i \cdot \beta \cdot S \cdot (\log|z|)^\beta$$
 This PDE encapsulates the spiral's morphing behavior and scale invariance.
 
 ## Analytic Continuation
 
-While `S_{α,β}` is initially defined for `z ≠ 0`, it can potentially be analytically continued to a larger domain in the complex plane, depending on the values of `α` and `β`.
+While $$ S_{\alpha,\beta} $$ is initially defined for $$ z \neq 0 $$, it can potentially be analytically continued to a larger domain in the complex plane, depending on the values of $$ \alpha $$ and $$ \beta $$.
 
 ## Parameter Space Analysis
 
-The behavior of `S_{α,β}` can be classified based on the values of `α` and `β`. This leads to a parameter space study, potentially revealing regions of similar behavior or bifurcations.
+The behavior of $$ S_{\alpha,\beta} $$ can be classified based on the values of $$ \alpha $$ and $$ \beta $$. This leads to a parameter space study, potentially revealing regions of similar behavior or bifurcations.
