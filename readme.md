@@ -16,16 +16,6 @@ The Morphing Infinity Spiral is defined by the complex function:
 
 $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
 
-
-
-# Morphing Infinity Spiral Equations
-
-## 1. Core Definition
-
-The Morphing Infinity Spiral is defined by the complex function:
-
-$$S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta})$$
-
 Where:
 - $z \in \mathbb{C}$ (z is a complex number)
 - $t \in \mathbb{R}$ (t is a real number representing time)
