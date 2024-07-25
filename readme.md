@@ -99,7 +99,6 @@ This gives insight into the spiral's structure at different scales.
 
 ## Partial Differential Equation
 
-$$ S_{\alpha,\beta} $$ satisfies the following PDE:
 $$\frac{\partial S}{\partial t} + z \cdot \frac{\partial S}{\partial z} = \alpha \cdot S \cdot \log|S| + i \cdot \beta \cdot S \cdot (\log|z|)^\beta$$
 This PDE encapsulates the spiral's morphing behavior and scale invariance.
 
