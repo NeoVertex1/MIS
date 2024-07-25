@@ -6,6 +6,8 @@ Ideally, those who decide to explore this rabbit hole will be able to help each 
 
 If you feel like solving a "problem" [here](https://github.com/toymathematician/toy-mathematics/blob/main/mis_time_breakdown.md) is the current problem im working on for this project.
 
+For code, you can go here for facy graphis or here for test suits.
+
 Our first proposal and contribution:
 
 # Morphing Infinity Spiral (MIS)
