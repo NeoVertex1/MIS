@@ -18,6 +18,12 @@ $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\be
 
 
 
+## Core Definition
+
+The Morphing Infinity Spiral is defined by the complex function:
+
+![S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta})](URL_to_image)
+
 Where:
 - `z ∈ ℂ` (z is a complex number)
 - `t ∈ ℝ` (t is a real number representing time)
@@ -49,7 +55,7 @@ Where:
 
 1. **Scale Invariance:**
    - For any non-zero complex number k,
-    $$ S_{α,β}(kz, t) = k^α * S_{α,β}(z, t) $$
+   `S_{α,β}(kz, t) = k^α * S_{α,β}(z, t)`
 
 2. **Rotational Symmetry:**
    - For any real number θ,
