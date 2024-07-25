@@ -8,19 +8,13 @@ Our first proposal and contribution:
 
 
 
-### The Morphing Infinity Spiral(MIS):
-
-$$
-S_{\alpha, \beta}(z, t) = z^{\alpha} \cdot \exp\left(i \cdot t \cdot (\log(z))^{\beta}\right)
-$$
-
 # Morphing Infinity Spiral: Mathematical Analysis
 
 ## 1. Core Definition
 
 The Morphing Infinity Spiral is defined by the complex function:
 
-$$ S_{\alpha,\beta}(z, t) = z^\alpha \cdot \exp(i \cdot t \cdot (\log(z))^\beta) $$
+$$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
 
 Where:
 
@@ -38,15 +32,15 @@ Where:
 
 ## 3. Component Analysis
 
-### a) $$ z^\alpha $$:
+### a) $$ z^{\alpha} $$:
 - This term stretches and rotates z based on α
-- If $$ \alpha = a + bi $$, then $$ |z^\alpha| = |z|^a $$ and $$ \arg(z^\alpha) = \alpha \cdot \arg(z) $$
+- If $$ \alpha = a + bi $$, then $$ |z^{\alpha}| = |z|^a $$ and $$ \arg(z^{\alpha}) = \alpha \cdot \arg(z) $$
 
-### b) $$ (\log(z))^\beta $$:
+### b) $$ (\log(z))^{\beta} $$:
 - $$ \log(z) = \ln|z| + i \cdot \arg(z) $$
 - This term introduces scale-invariance and additional rotation
 
-### c) $$ \exp(i \cdot t \cdot (\log(z))^\beta) $$:
+### c) $$ \exp(i \cdot t \cdot (\log(z))^{\beta}) $$:
 - This creates the time-dependent rotation
 - As t varies, it causes the spiral to morph
 
@@ -54,17 +48,17 @@ Where:
 
 ### a) Scale Invariance:
 For any non-zero complex number k,
-$$ S_{\alpha,\beta}(kz, t) = k^\alpha \cdot S_{\alpha,\beta}(z, t) $$
+$$ S_{\alpha,\beta}(kz, t) = k^{\alpha} \cdot S_{\alpha,\beta}(z, t) $$
 
 ### b) Rotational Symmetry:
 For any real number θ,
 $$ S_{\alpha,\beta}(e^{i\theta}z, t) = e^{i\alpha\theta} \cdot S_{\alpha,\beta}(z, t) $$
 
 ### c) Time Evolution:
-$$ \frac{\partial S_{\alpha,\beta}}{\partial t} = i \cdot S_{\alpha,\beta} \cdot (\log(z))^\beta $$
+$$ \frac{\partial S_{\alpha,\beta}}{\partial t} = i \cdot S_{\alpha,\beta} \cdot (\log(z))^{\beta} $$
 
 ### d) Complex Derivative:
-$$ \frac{\partial S_{\alpha,\beta}}{\partial z} = S_{\alpha,\beta} \cdot (\frac{\alpha}{z} + i\beta t(\log(z))^{\beta-1}/z) $$
+$$ \frac{\partial S_{\alpha,\beta}}{\partial z} = S_{\alpha,\beta} \cdot \left(\frac{\alpha}{z} + i\beta t(\log(z))^{\beta-1}/z\right) $$
 
 ## 5. Dynamical System
 
@@ -102,7 +96,7 @@ This gives insight into the spiral's structure at different scales.
 ## 10. Partial Differential Equation
 
 $$ S_{\alpha,\beta} $$ satisfies the following PDE:
-$$ \frac{\partial S}{\partial t} + z \cdot \frac{\partial S}{\partial z} = \alpha \cdot S \cdot \log|S| + i \cdot \beta \cdot S \cdot (\log|z|)^\beta $$
+$$ \frac{\partial S}{\partial t} + z \cdot \frac{\partial S}{\partial z} = \alpha \cdot S \cdot \log|S| + i \cdot \beta \cdot S \cdot (\log|z|)^{\beta} $$
 This PDE encapsulates the spiral's morphing behavior and scale invariance.
 
 ## 11. Analytic Continuation
