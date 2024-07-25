@@ -10,17 +10,13 @@ Our first proposal and contribution:
 
 # Morphing Infinity Spiral: Mathematical Analysis
 
-## 1. Core Definition
+## 1.Mathematical Definition
 
 The Morphing Infinity Spiral is defined by the complex function:
 
 $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
 
-## Core Definition
 
-The Morphing Infinity Spiral is defined by the complex function:
-
-`S_{α,β}(z, t) = z^α * exp(i * t * (log(z))^β)`
 
 Where:
 - `z ∈ ℂ` (z is a complex number)
@@ -53,7 +49,7 @@ Where:
 
 1. **Scale Invariance:**
    - For any non-zero complex number k,
-   `S_{α,β}(kz, t) = k^α * S_{α,β}(z, t)`
+    $$ S_{α,β}(kz, t) = k^α * S_{α,β}(z, t) $$
 
 2. **Rotational Symmetry:**
    - For any real number θ,
