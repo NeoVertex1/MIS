@@ -16,6 +16,11 @@ The Morphing Infinity Spiral is defined by the complex function:
 
 $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
 
+## Core Definition
+The Morphing Infinity Spiral is defined by the complex function:
+
+$$S_{\alpha, \beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta})$$
+
 Where:
 
 - $$ z \in \mathbb{C} $$ (z is a complex number)
@@ -25,84 +30,71 @@ Where:
 - $$ \exp(x) $$ is the exponential function
 - $$ \log(z) $$ is the complex natural logarithm
 
-## 2. Domain and Range
+## Domain and Range
 
-- Domain: $$ \mathbb{C} \setminus \{0\} \times \mathbb{R} $$ (all non-zero complex numbers and all real numbers)
-- Range: $$ \mathbb{C} $$ (the complex plane)
+- **Domain:** $$ \mathbb{C} \setminus \{0\} \times \mathbb{R} $$ (all non-zero complex numbers and all real numbers)
+- **Range:** $$ \mathbb{C} $$ (the complex plane)
 
-## 3. Component Analysis
+## Component Analysis
+a) $$ z^{\alpha} $$:
+This term stretches and rotates $$ z $$ based on $$ \alpha $$.  
+If $$ \alpha = a + bi $$, then $$ |z^{\alpha}| = |z|^{a} $$ and $$ \arg(z^{\alpha}) = \alpha \cdot \arg(z) $$.
 
-### a) $$ z^{\alpha} $$:
-- This term stretches and rotates z based on α
-- If $$ \alpha = a + bi $$, then $$ |z^{\alpha}| = |z|^a $$ and $$ \arg(z^{\alpha}) = \alpha \cdot \arg(z) $$
+b) $$ (\log(z))^{\beta} $$:
+$$\log(z) = \ln|z| + i \cdot \arg(z)$$
+This term introduces scale-invariance and additional rotation.
 
-### b) $$ (\log(z))^{\beta} $$:
-- $$ \log(z) = \ln|z| + i \cdot \arg(z) $$
-- This term introduces scale-invariance and additional rotation
+c) $$ \exp(i \cdot t \cdot (\log(z))^{\beta}) $$:
+This creates the time-dependent rotation.  
+As $$ t $$ varies, it causes the spiral to morph.
 
-### c) $$ \exp(i \cdot t \cdot (\log(z))^{\beta}) $$:
-- This creates the time-dependent rotation
-- As t varies, it causes the spiral to morph
+## Key Properties
+a) **Scale Invariance:**  
+For any non-zero complex number $$ k $$,
+$$S_{\alpha, \beta}(kz, t) = k^{\alpha} \cdot S_{\alpha, \beta}(z, t)$$
 
-## 4. Key Properties
+b) **Rotational Symmetry:**  
+For any real number $$ \theta $$,
+$$S_{\alpha, \beta}(e^{i\theta}z, t) = e^{i\alpha\theta} \cdot S_{\alpha, \beta}(z, t)$$
 
-### a) Scale Invariance:
-For any non-zero complex number k,
-$$ S_{\alpha,\beta}(kz, t) = k^{\alpha} \cdot S_{\alpha,\beta}(z, t) $$
+c) **Time Evolution:**
+$$\frac{\partial S_{\alpha, \beta}}{\partial t} = i \cdot S_{\alpha, \beta} \cdot (\log(z))^{\beta}$$
 
-### b) Rotational Symmetry:
-For any real number θ,
-$$ S_{\alpha,\beta}(e^{i\theta}z, t) = e^{i\alpha\theta} \cdot S_{\alpha,\beta}(z, t) $$
+d) **Complex Derivative:**
+$$\frac{\partial S_{\alpha, \beta}}{\partial z} = S_{\alpha, \beta} \cdot \left(\frac{\alpha}{z} + i\beta t \cdot \frac{(\log(z))^{\beta-1}}{z}\right)$$
 
-### c) Time Evolution:
-$$ \frac{\partial S_{\alpha,\beta}}{\partial t} = i \cdot S_{\alpha,\beta} \cdot (\log(z))^{\beta} $$
-
-### d) Complex Derivative:
-$$ \frac{\partial S_{\alpha,\beta}}{\partial z} = S_{\alpha,\beta} \cdot \left(\frac{\alpha}{z} + i\beta t(\log(z))^{\beta-1}/z\right) $$
-
-## 5. Dynamical System
-
+## Dynamical System
 The MIS can be viewed as a dynamical system by iterating the function:
-$$ z_{n+1} = S_{\alpha,\beta}(z_n, t) $$
+$$z_{n+1} = S_{\alpha, \beta}(z_n, t)$$
 
 This leads to the study of:
+- **Fixed points:** $$ z^* $$ such that $$ S_{\alpha, \beta}(z^*, t) = z^* $$
+- **Periodic orbits:** sequences $$ \{z_0, z_1, \ldots, z_n\} $$ such that $$ S_{\alpha, \beta}(z_n, t) = z_0 $$
+- **Attractors and repellers:** sets of points that nearby orbits converge to or diverge from
 
-a) Fixed points: $$ z^* $$ such that $$ S_{\alpha,\beta}(z^*, t) = z^* $$
-
-b) Periodic orbits: sequences $$ \{z_0, z_1, ..., z_n\} $$ such that $$ S_{\alpha,\beta}(z_n, t) = z_0 $$
-
-c) Attractors and repellers: sets of points that nearby orbits converge to or diverge from
-
-## 6. Lyapunov Exponent
-
+## Lyapunov Exponent
 To quantify the sensitivity to initial conditions:
-$$ \lambda(z_0) = \lim_{n \to \infty} \frac{1}{n} \sum_{k=0}^{n-1} \log\left|\frac{\partial S_{\alpha,\beta}}{\partial z}(z_k, t)\right| $$
-Where $$ z_k $$ is the k-th iterate of $$ z_0 $$ under $$ S_{\alpha,\beta} $$.
+$$\lambda(z_0) = \lim_{n \to \infty} \left(\frac{1}{n} \sum_{k=0}^{n-1} \log\left|\frac{\partial S_{\alpha, \beta}}{\partial z}(z_k, t)\right|\right)$$
+Where $$ z_k $$ is the $$ k $$-th iterate of $$ z_0 $$ under $$ S_{\alpha, \beta} $$.
 
-## 7. Fractal Dimension
+## Fractal Dimension
+For sets invariant under $$ S_{\alpha, \beta} $$, we can define and study various fractal dimensions, such as the Hausdorff dimension or box-counting dimension.
 
-For sets invariant under $$ S_{\alpha,\beta} $$, we can define and study various fractal dimensions, such as the Hausdorff dimension or box-counting dimension.
+## Conformal Properties
+$$ S_{\alpha, \beta} $$ is conformal (angle-preserving) at points where its derivative is non-zero. The points where $$ \frac{\partial S_{\alpha, \beta}}{\partial z} = 0 $$ are critical points of the mapping.
 
-## 8. Conformal Properties
-
-$$ S_{\alpha,\beta} $$ is conformal (angle-preserving) at points where its derivative is non-zero. The points where $$ \frac{\partial S_{\alpha,\beta}}{\partial z} = 0 $$ are critical points of the mapping.
-
-## 9. Fourier Analysis
-
-We can study the frequency components of $$ S_{\alpha,\beta} $$ along circular paths:
-$$ F(r, \omega, t) = \frac{1}{2\pi} \int_0^{2\pi} S_{\alpha,\beta}(re^{i\theta}, t) \cdot e^{-i\omega\theta} d\theta $$
+## Fourier Analysis
+We can study the frequency components of $$ S_{\alpha, \beta} $$ along circular paths:
+$$F(r, \omega, t) = \frac{1}{2\pi} \int_{0}^{2\pi} S_{\alpha, \beta}(re^{i\theta}, t) \cdot e^{-i\omega\theta} d\theta$$
 This gives insight into the spiral's structure at different scales.
 
-## 10. Partial Differential Equation
-
-$$ S_{\alpha,\beta} $$ satisfies the following PDE:
-$$ \frac{\partial S}{\partial t} + z \cdot \frac{\partial S}{\partial z} = \alpha \cdot S \cdot \log|S| + i \cdot \beta \cdot S \cdot (\log|z|)^{\beta} $$
+## Partial Differential Equation
+$$ S_{\alpha, \beta} $$ satisfies the following PDE:
+$$\frac{\partial S}{\partial t} + z \cdot \frac{\partial S}{\partial z} = \alpha \cdot S \cdot \log|S| + i \cdot \beta \cdot S \cdot (\log|z|)^{\beta}$$
 This PDE encapsulates the spiral's morphing behavior and scale invariance.
 
-## 11. Analytic Continuation
+## Analytic Continuation
+While $$ S_{\alpha, \beta} $$ is initially defined for $$ z \neq 0 $$, it can potentially be analytically continued to a larger domain in the complex plane, depending on the values of $$ \alpha $$ and $$ \beta $$.
 
-While $$ S_{\alpha,\beta} $$ is initially defined for $$ z \neq 0 $$, it can potentially be analytically continued to a larger domain in the complex plane, depending on the values of α and β.
-
-## 12. Parameter Space Analysis
-
-The behavior of $$ S_{\alpha,\beta} $$ can be classified based on the values of α and β. This leads to a parameter space study, potentially revealing regions of similar behavior or bifurcations.
+## Parameter Space Analysis
+The behavior of $$ S_{\alpha, \beta} $$ can be classified based on the values of $$ \alpha $$ and $$ \beta $$. This leads to a parameter space study, potentially revealing regions of similar behavior or bifurcations.
