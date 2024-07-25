@@ -15,12 +15,14 @@ S_{\alpha, \beta}(z, t) = z^{\alpha} \cdot \exp\left(i \cdot t \cdot (\log(z))^{
 $$
 
 Where:
+$$
 - \( z \in \mathbb{C} \) (z is a complex number)
 - \( t \in \mathbb{R} \) (t is a real number representing time)
 - \( \alpha, \beta \in \mathbb{C} \) (\(\alpha\) and \(\beta\) are complex parameters)
 - \( i \) is the imaginary unit (\(i^2 = -1\))
 - \( \exp(x) \) is the exponential function
 - \( \log(z) \) is the complex natural logarithm
+- $$
 
 ## Domain and Range
 
