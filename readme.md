@@ -11,8 +11,7 @@ For code, you can go [here](https://github.com/toymathematician/toy-mathematics/
 Our first proposal and contribution:
 
 # Morphing Infinity Spiral (MIS)
-![some fancy graphs](https://github.com/toymathematician/toy-mathematics/blob/8576a4676dd9bfd9023c7ec9135484e717d8e786/fancy_mis.png)
-## A Novel Mathematical Object
+
 
 The Morphing Infinity Spiral (MIS) is defined as:
 
