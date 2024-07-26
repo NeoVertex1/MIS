@@ -6,7 +6,7 @@ Ideally, those who decide to explore this rabbit hole will be able to help each 
 
 If you feel like solving a "problem" [here](https://github.com/toymathematician/toy-mathematics/blob/main/mis_time_breakdown.md) is the current problem im working on for this project.
 
-For code, you can go [here](https://github.com/toymathematician/toy-mathematics/blob/f75448b6295ab9f8d4837b06071c155d917e50db/mis_graphs.py) for facy graphis or [here](https://github.com/toymathematician/toy-mathematics/blob/0e08c391579f483a5aa47e993d9563bfaf7fc43e/mis_tests.py) for test suits.
+For code, you can go [here](https://github.com/toymathematician/toy-mathematics/blob/f75448b6295ab9f8d4837b06071c155d917e50db/mis_graphs.py) for fancy graphs or [here](https://github.com/toymathematician/toy-mathematics/blob/0e08c391579f483a5aa47e993d9563bfaf7fc43e/mis_tests.py) for test suits.
 
 Our first proposal and contribution:
 
