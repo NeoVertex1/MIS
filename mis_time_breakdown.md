@@ -1,5 +1,5 @@
 
-Apparently whiel MIS has scale invariance at some level, it can break down very easily, here is some information about it:
+Apparently while MIS has scale invariance at some level, it can break down very easily, here is some information about it:
 
 Mathematical Breakdown:
 
