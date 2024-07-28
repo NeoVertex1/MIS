@@ -1,5 +1,4 @@
 
-
 [Scale Invariance data](https://github.com/toymathematician/toy-mathematics/blob/main/mis_time_breakdown.md)
 
 The scale invariance breaks with changes in time, one of the key aspects of the research is to understand how the t works for now.
@@ -20,7 +19,7 @@ The MIS is an intriguing equation that creates a morphing infinity spiral, the s
 
 >PS. I understand this project is >lacking formal work and citations, >this will be done with time.  the >code attached manages to prove many >of the qualities of the equation, >have fun with it. The equation >solves a PDE and ODE, I will post >more expanded versions of those >soon. the visualization code >attached does not in any way truly >shows what the MIS looks like, id be >happy if someone submited a better >visualisation code.
 
->The Morphing Infinity Spiral (MIS) is defined as:
+The Morphing Infinity Spiral (MIS) is defined as:
 
 $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
 
