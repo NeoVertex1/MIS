@@ -12,17 +12,16 @@ Our first proposal and contribution:
 
 # Morphing Infinity Spiral (MIS)
 
-The MIS is an intriguing equation that creates a morphinb spiral that goes to infinity, the spiral also show fractal like multi-scale representations, these features come from simple rules in the equation.
+The MIS is an intriguing equation that creates a morphing spiral that goes to infinity, the spiral also show fractal like multi-scale representations, these features come from simple rules in the equation.
 
 >PS. I understand this project is lacking formal work and citations, this will be done with time.
 
->PS2. the code attached manages to "prove" many of the qualities of the equation, have fun with it.
+>PS2. the code attached manages to prove many of the qualities of the equation, have fun with it.
 
->PS3. I will make this project a bit more "academic" soon (its a lot of work)
 
->PS4. The equation "solves" a PDE and ODE, I will post more expanded versions of those soon.
+>PS3. The equation solves a PDE and ODE, I will post more expanded versions of those soon.
 
->PS5. the "visualization" code attached does not in any way truly shows what the MIS looks like, id be happy if someone submited a better visualisation code, I will do it with time.
+>PS5. the visualization code attached does not in any way truly shows what the MIS looks like, id be happy if someone submited a better visualisation code.
  
 The Morphing Infinity Spiral (MIS) is defined as:
 
@@ -44,7 +43,7 @@ Significance:
 4. May require development of new numerical methods
 5. Offers fresh perspectives on symmetry and invariance in mathematics
 
-The MIS represents a new frontier in mathematical exploration, with implications spanning pure and applied mathematics.
+The MIS represents a mathematical exploration, with implications spanning pure and applied mathematics.
 
 # Morphing Infinity Spiral: Mathematical Analysis
 
