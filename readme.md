@@ -1,4 +1,4 @@
-Hello and welcome to the toy mathematics project 👋!
+
 
 The purpose of this project is to explore new cool mathematical objects! Yes you heard that right, it is possible to create completely new mathematical objects, while these objects build upon the foundationss of our science, the properties that they exhibit are not yet fully explored or solved. In this repo you will find interesting new mathematical objects to learn and research about.
 
