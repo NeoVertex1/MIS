@@ -1,29 +1,26 @@
 
 
-The purpose of this project is to explore new cool mathematical objects! Yes you heard that right, it is possible to create completely new mathematical objects, while these objects build upon the foundationss of our science, the properties that they exhibit are not yet fully explored or solved. In this repo you will find interesting new mathematical objects to learn and research about.
+[Scale Invariance data](https://github.com/toymathematician/toy-mathematics/blob/main/mis_time_breakdown.md)
 
-Ideally, those who decide to explore this rabbit hole will be able to help each other research these new properties and interesting number stuff. It's unknown to me how much of an impact these math objects can make but I enjoy inventing and exploring them. If you are excited about mathematics and code, this will be a wild adventure for you. Most of the math posted here can be tested and "proved" with code! For each new math object we create we will provide extensive testing suits to play around with it. Now without further ado, lets delve... 🤖🤝🤓
+The scale invariance breaks with changes in time, one of the key aspects of the research is to understand how the t works for now.
 
-If you feel like solving a "problem" [here](https://github.com/toymathematician/toy-mathematics/blob/main/mis_time_breakdown.md) is the current problem im working on for this project.
+If time is not equal to 1, the scale invariance starts to breakdown, we need further examination to understand its effects.
 
-For code, you can go [here](https://github.com/toymathematician/toy-mathematics/blob/f75448b6295ab9f8d4837b06071c155d917e50db/mis_graphs.py) for fancy graphs or [here](https://github.com/toymathematician/toy-mathematics/blob/0e08c391579f483a5aa47e993d9563bfaf7fc43e/mis_tests.py) for test suits.
+Other operations of the function remain their stability, the stability and emergent properties need further examination.
+
+Please go to the link for the test suite:
+
+[testsuite 0.1.0](https://github.com/toymathematician/toy-mathematics/blob/0e08c391579f483a5aa47e993d9563bfaf7fc43e/mis_tests.py) 
 
 Our first proposal and contribution:
 
 # Morphing Infinity Spiral (MIS)
 
-The MIS is an intriguing equation that creates a morphing spiral that goes to infinity, the spiral also show fractal like multi-scale representations, these features come from simple rules in the equation.
+The MIS is an intriguing equation that creates a morphing infinity spiral, the spiral also show fractal like multi-scale representations, these features come from simple rules in the equation.
 
->PS. I understand this project is lacking formal work and citations, this will be done with time.
+>PS. I understand this project is >lacking formal work and citations, >this will be done with time.  the >code attached manages to prove many >of the qualities of the equation, >have fun with it. The equation >solves a PDE and ODE, I will post >more expanded versions of those >soon. the visualization code >attached does not in any way truly >shows what the MIS looks like, id be >happy if someone submited a better >visualisation code.
 
->PS2. the code attached manages to prove many of the qualities of the equation, have fun with it.
-
-
->PS3. The equation solves a PDE and ODE, I will post more expanded versions of those soon.
-
->PS5. the visualization code attached does not in any way truly shows what the MIS looks like, id be happy if someone submited a better visualisation code.
- 
-The Morphing Infinity Spiral (MIS) is defined as:
+>The Morphing Infinity Spiral (MIS) is defined as:
 
 $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
 
