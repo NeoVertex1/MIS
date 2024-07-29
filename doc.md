@@ -1,6 +1,6 @@
-# The Morphing Infinity Spiral: From Simple Concepts to Complex Mathematics
+# The Morphing Infinity Spiral: From Concepts to Complex Mathematics
 
-## Simple Explanation
+
 
 The Morphing Infinity Spiral (MIS) is a mathematical object that combines several interesting properties:
 
