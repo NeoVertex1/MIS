@@ -45,7 +45,7 @@ The MIS represents a mathematical exploration, with implications spanning pure a
 
 <details>
 <summary>ps2.</summary>
-> my hope is that some people would be interested in contributing to this investigation
+>my hope is that some people would be interested in contributing to this investigation
 
 </details>
 
