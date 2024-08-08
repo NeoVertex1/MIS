@@ -27,6 +27,14 @@ $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\be
 
 where z ∈ ℂ\{0}, t ∈ ℝ, α, β ∈ ℂ
 
+# Partial Differential Equation
+
+$S_{\alpha,\beta}$ satisfies the following PDE:
+
+$$\frac{\partial S}{\partial t} + z \cdot \frac{\partial S}{\partial z} = \alpha \cdot S \cdot \log|S| + i \cdot \beta \cdot S \cdot (\log|z|)^{\beta}$$
+
+This PDE encapsulates the spiral's morphing behavior and scale invariance.
+
 Novelty:
 1. Combines complex exponentiation, logarithms, and time-dependent rotation
 2. Introduces time evolution into complex dynamics
