@@ -42,6 +42,12 @@ Significance:
 
 The MIS represents a mathematical exploration, with implications spanning pure and applied mathematics.
 
+<details>
+<summary>ps2.</summary>
+> my hope is that some people would be interested in contributing to this investigation
+
+</detail>
+
 # Morphing Infinity Spiral: Mathematical Analysis
 
 ## 1.Mathematical Definition
