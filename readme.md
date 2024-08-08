@@ -23,7 +23,7 @@ The MIS is a morphing infinity spiral, the spiral also show fractal like multi-s
 
 The Morphing Infinity Spiral (MIS) is defined as:
 
-$$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
+$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $
 
 where z ∈ ℂ\{0}, t ∈ ℝ, α, β ∈ ℂ
 
