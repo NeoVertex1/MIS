@@ -16,9 +16,11 @@ Our first proposal and contribution:
 # Morphing Infinity Spiral (MIS)
 
 The MIS is a morphing infinity spiral, the spiral also show fractal like multi-scale representations, these features come from simple rules in the equation.
+<details>
+<summary> PS. </summary>
 
 >PS. I understand this project is >lacking formal work and citations, >this will be done with time.  the >code attached manages to prove many >of the qualities of the equation, >have fun with it. The equation >solves a PDE and ODE, I will post >more expanded versions of those >soon. the visualization code >attached does not in any way truly >shows what the MIS looks like, id be >happy if someone submited a better >visualisation code.
-
+</details>
 The Morphing Infinity Spiral (MIS) is defined as:
 
 $$ S_{\alpha,\beta}(z, t) = z^{\alpha} \cdot \exp(i \cdot t \cdot (\log(z))^{\beta}) $$
