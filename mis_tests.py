@@ -1,4 +1,4 @@
-# these a comprehensive tests, these are "proof" of all mis known properties, have in mind the invariance breaks down with time very quickly we need to learn about it further
+# here are some comprehensive tests, these are "proof" of all mis known properties, have in mind the invariance breaks down with time very quickly we need to learn about it further
 
 import mpmath as mp
 from scipy import stats
